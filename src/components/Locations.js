@@ -1,8 +1,11 @@
 import React from "react";
-import "./App.css";
 
 class Locations extends React.Component {
-  
+    render() {
+        return (
+            null
+        )
+    }
 }
 
 export default Locations;

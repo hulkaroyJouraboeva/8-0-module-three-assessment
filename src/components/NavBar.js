@@ -1,15 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./App.css";
 
 class NavBar extends React.Component {
   render() {
       return (
           <div className="NavBar">
-            <Link to='/'>Home</Link>
-            <Link to='/'>Home</Link>
-            <Link to='/'>Home</Link>
-            <Link to='/'>Home</Link>
+            <Link to='/'>
+                <img 
+                    className="home-logo" 
+                    src="https://i.pinimg.com/originals/fc/8f/c1/fc8fc1e2e6490d44d963b2c119e2de40.jpg" 
+                    alt="pastel Ghibli logo"
+                />
+            </Link>
+            <Link to='/movies'>Movies</Link>
+            <Link to='/people'>People</Link>
+            <Link to='/locations'>Locations</Link>
           </div>
       )
   }

@@ -1,8 +1,11 @@
 import React from "react";
-import "./App.css";
 
 class People extends React.Component {
-  
+    render() {
+        return (
+            null
+        )
+    }
 }
 
 export default People;
