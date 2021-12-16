@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class NavBar extends React.Component {
   render() {
       return (
-          <div className="NavBar">
+          <nav className="NavBar">
             <Link to='/'>
                 <img 
                     className="home-logo" 
@@ -15,7 +15,7 @@ class NavBar extends React.Component {
             <Link to='/movies'>Movies</Link>
             <Link to='/people'>People</Link>
             <Link to='/locations'>Locations</Link>
-          </div>
+          </nav>
       )
   }
 }
