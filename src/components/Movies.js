@@ -13,6 +13,7 @@ class Movies extends React.Component {
         fetch('https://ghibliapi.herokuapp.com/films')
         .then((response) => response.json())
         .then((data) => this.setState({ moviesData: data }) )
+        .catch((error) => { throw error })
     }
 
     componentDidMount() {

@@ -13,6 +13,7 @@ class People extends React.Component {
         fetch('https://ghibliapi.herokuapp.com/people/')
         .then((response) => response.json())
         .then((data) => this.setState({ peopleData: data }))
+        .catch((error) => { throw error })
     }
 
     componentDidMount() {
